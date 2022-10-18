@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/postre"
+    android:alpha="0.7">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/user"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/edtuser"
+        android:layout_width="200sp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:hint="@string/edituser"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/password"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="200sp"
+        android:layout_height="48dp"
+        android:layout_margin="20dp"
+        android:hint="@string/editpassw"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/shape"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onLogin"
+        android:text="@string/login"
+        android:backgroundTint="@color/teal_700"
+        />
+
+
+</LinearLayout>

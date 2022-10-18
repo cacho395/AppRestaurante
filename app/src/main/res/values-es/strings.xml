@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Restaurante</string>
+    <string name="user">USUARIO</string>
+    <string name="password">CONTRASEÑA</string>
+    <string name="login">INGRESAR</string>
+    <string name="edituser">digite usuario</string>
+    <string name="save">Save</string>
+    <string name="editpassw">su contraseña</string>
+    <string name="breackfast">Desayunos</string>
+    <string name="lunch">Almuerzos</string>
+    <string name="Dinner">Cena</string>
+    <string name="drinks">Bebidas</string>
+    <string name="snacks">Pasabocas</string>
+    <string name="mensajeError">Usuario o contraseña errada</string>
+
+</resources>

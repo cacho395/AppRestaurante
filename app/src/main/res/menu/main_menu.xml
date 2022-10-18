@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Menu">
+
+
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/save"
+        android:icon="@drawable/ic_baseline_save_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/breakfast"
+        android:title="@string/breackfast"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/lunch"
+        android:title="@string/lunch"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/Dinner"
+        android:title="@string/Dinner"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/drinks"
+        android:title="@string/drinks"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/snacks"
+        android:title="@string/snacks"
+        app:showAsAction="never"
+        />
+
+
+</menu>
