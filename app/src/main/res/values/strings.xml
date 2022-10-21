@@ -13,4 +13,10 @@
     <string name="snacks">Snacks</string>
     <string name="mensajeError">Invalid Username or Password</string>
 
+    <string name="breakfast">Breakfast</string>
+    <string name="healthy">Healthy</string>
+    <string name="traditional">Traditional</string>
+    <string name="cereal">Cereal</string>
+    <string name="btnbreakfast">Request</string>
+
 </resources>

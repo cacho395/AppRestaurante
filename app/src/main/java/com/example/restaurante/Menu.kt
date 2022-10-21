@@ -1,7 +1,9 @@
 package com.example.restaurante
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 
@@ -20,12 +22,18 @@ class Menu : AppCompatActivity() {
         R.id.action_save ->{
             true
         }
+        R.id.breakfast->{
+            var llama2= Intent(this,breakfast::class.java)
+            startActivity(llama2)
+            true
+        }
         else ->{
             super.onOptionsItemSelected(item)
         }
 
 
     }
+
 
 
 
