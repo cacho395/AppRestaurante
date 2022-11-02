@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Restaurante</string>
-    <string name="user">USUARIO</string>
-    <string name="password">CONTRASEÑA</string>
-    <string name="login">INGRESAR</string>
-    <string name="edituser">digite usuario</string>
+    <string name="user">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Ingresar</string>
+    <string name="register">Registrarse</string>
+    <string name="edituser">ejemplo@correo.com</string>
     <string name="save">Save</string>
     <string name="editpassw">su contraseña</string>
     <string name="breackfast">Desayunos</string>
@@ -12,11 +13,25 @@
     <string name="drinks">Bebidas</string>
     <string name="snacks">Pasabocas</string>
     <string name="mensajeError">Usuario o contraseña errada</string>
-
+    <string name="or">o</string>
     <string name="breakfast">Desayunos</string>
     <string name="healthy">Saludable</string>
     <string name="traditional">Tradicional</string>
     <string name="cereal">Cereal</string>
     <string name="btnbreakfast">Solicitar</string>
+    <string name="forgot">Olvidó su Contraseña? </string>
+    <string name="identity">Documento </string>
+    <string name="name"> Nombres </string>
+    <string name="Lastname">Apellidos</string>
+    <string name="address"> Dirección </string>
+    <string name="phone">Teléfono </string>
+    <string name="btncontinue"> Continuar </string>
+    <string name="btncancel"> Cancelar </string>
+    <string name="alt_userpass">Inicia sesión con tu cuenta </string>
+    <string name="alt_cancel">Está Seguro? </string>
+    <string name="help">Ayuda </string>
+    <string name="contact">Contáctenos </string>
+    <string name="inconst">En Construcción </string>
+
 
 </resources>

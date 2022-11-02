@@ -1,10 +1,12 @@
 package com.example.restaurante
 
+import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 
 class MainActivity : AppCompatActivity() {
@@ -31,6 +33,11 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+    }
+
+    fun onRegister(btnregister:View){
+        val regis = Intent(this, Register::class.java)
+        startActivity(regis)
     }
 
 }
