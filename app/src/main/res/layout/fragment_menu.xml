@@ -1,105 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:layout_margin="20dp"
-    tools:context=".MenuFragment">
-
+    android:layout_margin="16dp"
+    tools:context=".Menu_Fragment">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="clip_vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp">
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#eee"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal">
 
-            <ImageButton
-                android:id="@+id/btnbreak"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_margin="10dp"
-                android:background="@color/white"
-                android:contentDescription="@string/breakfast"
-                android:elevation="20dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/desa1" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:elevation="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/desa1" />
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/breakfast"
-                android:layout_gravity="center"/>
+        <TextView
 
-            <ImageButton
-                android:id="@+id/btndinner"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_margin="10dp"
-                android:elevation="20dp"
-                android:onClick="onDinner"
-                android:scaleType="centerCrop"
-                android:src="@drawable/cenas"
-                tools:ignore="SpeakableTextPresentCheck" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/Dinner"
-                android:layout_gravity="center"/>
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:text="@string/breakfast" />
 
-        </LinearLayout>
-
-        <LinearLayout
+        <Button
+            android:id="@+id/btnbreak"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity=""
-            android:layout_marginTop="20dp"
-            android:layout_margin="10dp">
-
-            <ImageButton
-                android:id="@+id/btnlunch"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_margin="10dp"
-                android:elevation="20dp"
-                android:onClick="onLunch"
-                android:scaleType="centerCrop"
-                android:background="@color/white"
-                android:src="@drawable/trad1"
-                tools:ignore="SpeakableTextPresentCheck" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/lunch"
-                android:layout_gravity="center"/>
-
-            <ImageButton
-                android:id="@+id/btnsnack"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_margin="10dp"
-                android:elevation="20dp"
-                android:onClick="onSnacks"
-                android:scaleType="centerCrop"
-                android:src="@drawable/snacks"
-                tools:ignore="SpeakableTextPresentCheck" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/snacks"
-                android:layout_gravity="center"/>
+            android:backgroundTint="@color/blue"
+            android:text=">"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>/>
 
 
-        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#eee"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:elevation="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/trad1" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:text="@string/lunch" />
+
+        <Button
+            android:id="@+id/btnlunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:text=">"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#eee"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:elevation="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cenas" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:text="@string/Dinner" />
+
+        <Button
+            android:id="@+id/btndinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:text=">"
+            android:textColor="@color/white"
+            android:textSize="20sp" />/>
+
+
+
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#eee"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal">
 
-</FrameLayout>
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:elevation="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/snacks" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:text="@string/snacks" />
+
+        <Button
+            android:id="@+id/btnsnacks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:text=">"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

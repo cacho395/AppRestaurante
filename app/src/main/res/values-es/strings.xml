@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Restaurante</string>
+    <string name="app_name">Rest Buen Sabor</string>
     <string name="user">Correo electrónico</string>
     <string name="password">Contraseña</string>
     <string name="login">Ingresar</string>
